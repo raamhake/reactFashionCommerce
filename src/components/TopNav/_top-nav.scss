@@ -69,11 +69,12 @@
   
   .cart-wishlist .list-icon{
   
-    color:white;
-    font-size:1.3em;
-    list-style-type:none;
-    display:inline-block;
-    margin-right:0.5em;
+    color: white;
+    font-size: 1.3em;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 0.5em;
+    position: relative;
   
   }
   
@@ -81,7 +82,11 @@
   {
     width:7%;
     margin-top:1.7em;
-    margin-left:1em;
+    margin-left:auto;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+
   }
 
   .list-icon{
@@ -89,20 +94,20 @@
   .cart-item-count{
 
 
-    border-radius:50%;
+    border-radius: 50%;
     background-color: gold;
-    position:absolute;
-    height:1em;
+    position: absolute;
+    height: 1em;
     width: 1em;
-    left: 83%;
-    top:1.8%;
+    right: -0.5em; 
+    top: -0.5em;
     text-align: center;
-    line-height: 90%;
+    line-height: 1em; 
     p{
 
-        font-size:0.8em;
-        font-weight:600;
-        color:black;
+      font-size: 0.8em;
+      font-weight: 600;
+      color: black;
     }
 
 
